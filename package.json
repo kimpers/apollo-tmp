@@ -1,0 +1,162 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "apollo-client@git+https://github.com/apollostack/apollo-client.git#7037195f8ce1eecfc77058caa995ba56fe70d88f",
+        "scope": null,
+        "escapedName": "apollo-client",
+        "name": "apollo-client",
+        "rawSpec": "git+https://github.com/apollostack/apollo-client.git#7037195f8ce1eecfc77058caa995ba56fe70d88f",
+        "spec": "git+https://github.com/apollostack/apollo-client.git#7037195f8ce1eecfc77058caa995ba56fe70d88f",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:apollostack/apollo-client.git#7037195f8ce1eecfc77058caa995ba56fe70d88f",
+          "sshUrl": "git+ssh://git@github.com/apollostack/apollo-client.git#7037195f8ce1eecfc77058caa995ba56fe70d88f",
+          "httpsUrl": "git+https://github.com/apollostack/apollo-client.git#7037195f8ce1eecfc77058caa995ba56fe70d88f",
+          "gitUrl": "git://github.com/apollostack/apollo-client.git#7037195f8ce1eecfc77058caa995ba56fe70d88f",
+          "shortcut": "github:apollostack/apollo-client#7037195f8ce1eecfc77058caa995ba56fe70d88f",
+          "directUrl": "https://raw.githubusercontent.com/apollostack/apollo-client/7037195f8ce1eecfc77058caa995ba56fe70d88f/package.json"
+        }
+      },
+      "/Users/joar/Work/leo-sports-client"
+    ]
+  ],
+  "_from": "git+https://github.com/apollostack/apollo-client.git#7037195f8ce1eecfc77058caa995ba56fe70d88f",
+  "_id": "apollo-client@0.4.11",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/apollo-client",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "apollo-client@git+https://github.com/apollostack/apollo-client.git#7037195f8ce1eecfc77058caa995ba56fe70d88f",
+    "scope": null,
+    "escapedName": "apollo-client",
+    "name": "apollo-client",
+    "rawSpec": "git+https://github.com/apollostack/apollo-client.git#7037195f8ce1eecfc77058caa995ba56fe70d88f",
+    "spec": "git+https://github.com/apollostack/apollo-client.git#7037195f8ce1eecfc77058caa995ba56fe70d88f",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:apollostack/apollo-client.git#7037195f8ce1eecfc77058caa995ba56fe70d88f",
+      "sshUrl": "git+ssh://git@github.com/apollostack/apollo-client.git#7037195f8ce1eecfc77058caa995ba56fe70d88f",
+      "httpsUrl": "git+https://github.com/apollostack/apollo-client.git#7037195f8ce1eecfc77058caa995ba56fe70d88f",
+      "gitUrl": "git://github.com/apollostack/apollo-client.git#7037195f8ce1eecfc77058caa995ba56fe70d88f",
+      "shortcut": "github:apollostack/apollo-client#7037195f8ce1eecfc77058caa995ba56fe70d88f",
+      "directUrl": "https://raw.githubusercontent.com/apollostack/apollo-client/7037195f8ce1eecfc77058caa995ba56fe70d88f/package.json"
+    }
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/apollostack/apollo-client.git#7037195f8ce1eecfc77058caa995ba56fe70d88f",
+  "_shasum": "8ae55e77a52989118a2268279ca793bc6523ecd9",
+  "_shrinkwrap": null,
+  "_spec": "apollo-client@git+https://github.com/apollostack/apollo-client.git#7037195f8ce1eecfc77058caa995ba56fe70d88f",
+  "_where": "/Users/joar/Work/leo-sports-client",
+  "author": {
+    "name": "Sashko Stubailo",
+    "email": "sashko@stubailo.com"
+  },
+  "bugs": {
+    "url": "https://github.com/apollostack/apollo-client/issues"
+  },
+  "dependencies": {
+    "es6-promise": "^3.1.2",
+    "graphql-tag": "^0.1.10",
+    "lodash.assign": "^4.0.8",
+    "lodash.clonedeep": "^4.3.2",
+    "lodash.countby": "^4.4.0",
+    "lodash.flatten": "^4.2.0",
+    "lodash.forown": "^4.1.0",
+    "lodash.has": "^4.3.1",
+    "lodash.identity": "^3.0.0",
+    "lodash.includes": "^4.1.2",
+    "lodash.isarray": "^4.0.0",
+    "lodash.isboolean": "^3.0.3",
+    "lodash.isequal": "^4.2.0",
+    "lodash.isnull": "^3.0.0",
+    "lodash.isnumber": "^3.0.3",
+    "lodash.isobject": "^3.0.2",
+    "lodash.isstring": "^4.0.1",
+    "lodash.isundefined": "^3.0.1",
+    "lodash.mapvalues": "^4.4.0",
+    "lodash.merge": "^4.4.0",
+    "lodash.pick": "^4.2.0",
+    "redux": "^3.3.1",
+    "symbol-observable": "^0.2.4",
+    "whatwg-fetch": "^1.0.0"
+  },
+  "description": "A simple yet functional GraphQL client.",
+  "devDependencies": {
+    "async": "^2.0.0",
+    "browserify": "^13.0.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.2.0",
+    "colors": "^1.1.2",
+    "concurrently": "^2.2.0",
+    "dataloader": "^1.1.0",
+    "es6-promise": "^3.1.2",
+    "grunt": "1.0.1",
+    "grunt-tslint": "3.1.0",
+    "gzip-size": "^3.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "istanbul": "^0.4.2",
+    "lodash": "^4.6.1",
+    "lodash.mapvalues": "^4.3.0",
+    "lodash.omit": "^4.2.1",
+    "minimist": "^1.2.0",
+    "mocha": "^3.0.0",
+    "nodemon": "^1.9.2",
+    "pretty-bytes": "^3.0.1",
+    "remap-istanbul": "^0.5.1",
+    "request-promise": "^4.0.1",
+    "rxjs": "^5.0.0-beta.7",
+    "sinon": "^1.17.4",
+    "source-map-support": "^0.4.0",
+    "tslint": "3.14.0",
+    "typescript": "^2.0.0",
+    "typings": "^1.0.0",
+    "uglify-js": "^2.6.2"
+  },
+  "gitHead": "7037195f8ce1eecfc77058caa995ba56fe70d88f",
+  "homepage": "https://github.com/apollostack/apollo-client#readme",
+  "keywords": [
+    "ecmascript",
+    "es2015",
+    "jsnext",
+    "javascript",
+    "relay",
+    "npm",
+    "react"
+  ],
+  "license": "MIT",
+  "main": "./lib/src/index.js",
+  "name": "apollo-client",
+  "optionalDependencies": {},
+  "readme": "# Apollo client\n\n[![npm version](https://badge.fury.io/js/apollo-client.svg)](https://badge.fury.io/js/apollo-client)\n[![Get on Slack](https://img.shields.io/badge/slack-join-orange.svg)](http://www.apollostack.com/#slack)\n\nThe Apollo Client can easily be dropped into any JavaScript frontend where you want to use data from a GraphQL server.\n\nIt's simple to use, and very small (less than 33kb), while having a lot of useful features around caching, polling, and refetching.\n\n## Installing\n\n```txt\nnpm install apollo-client\n```\n\nTo use this client in a web browser or mobile app, you'll need a build system capable of loading NPM packages on the client. Some common choices include Browserify, Webpack, and Meteor 1.3. Move on to the next article to see how to import and initialize the client.\n\n[Read the docs.](http://docs.apollostack.com/apollo-client/index.html)\n\n---\n\n## Contributing\n\n[![Build status](https://travis-ci.org/apollostack/apollo-client.svg?branch=master)](https://travis-ci.org/apollostack/apollo-client)\n[![Build status](https://ci.appveyor.com/api/projects/status/ajdf70delshw2ire/branch/master?svg=true)](https://ci.appveyor.com/project/stubailo/apollo-client/branch/master)\n[![Coverage Status](https://coveralls.io/repos/github/apollostack/apollo-client/badge.svg?branch=master)](https://coveralls.io/github/apollostack/apollo-client?branch=master)\n\nRunning tests locally:\n\n```\n# nvm use node\nnpm install\nnpm test\n```\n\nThis project uses TypeScript for static typing and TSLint for linting. You can get both of these built into your editor with no configuration by opening this project in [Visual Studio Code](https://code.visualstudio.com/), an open source IDE which is available for free on all platforms.\n\n#### Useful tools\n\nShould be moved into some kind of CONTRIBUTING.md soon...\n\n- [AST explorer](https://astexplorer.net/): you can use this to see what the GraphQL query AST looks like for different queries\n\n#### Important discussions\n\nIf you're getting booted up as a contributor, here are some discussions you should take a look at:\n\n1. [Static typing and why we went with TypeScript](https://github.com/apollostack/apollo-client/issues/6) also covered in [the Medium post](https://medium.com/apollo-stack/javascript-code-quality-with-free-tools-9a6d80e29f2d#.k32z401au)\n1. [Idea for pagination handling](https://github.com/apollostack/apollo-client/issues/26)\n1. [Discussion about interaction with Redux and domain vs. client state](https://github.com/apollostack/apollo-client/issues/98)\n1. [Long conversation about different client options, before this repo existed](https://github.com/apollostack/apollo/issues/1)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apollostack/apollo-client.git"
+  },
+  "scripts": {
+    "compile": "tsc ./src/**/*",
+    "compile:browser": "rm -rf ./dist && mkdir ./dist && browserify ./lib/src/index.js -o=./dist/index.js && npm run minify:browser",
+    "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha -- --reporter dot --full-trace lib/test/tests.js",
+    "deploy": "rm -rf ./lib && npm run compile && ./scripts/deploy.sh",
+    "dev": "./scripts/dev.sh",
+    "filesize": "npm run compile:browser && ./scripts/filesize.js --file=./dist/index.min.js --maxGzip=37",
+    "lint": "grunt tslint",
+    "minify:browser": "uglifyjs --compress --mangle --screw-ie8 -o=./dist/index.min.js -- ./dist/index.js",
+    "postcoverage": "remap-istanbul --input coverage/coverage.json --type lcovonly --output coverage/lcov.info",
+    "posttest": "npm run lint",
+    "prepublish": "npm run compile",
+    "pretest": "npm run compile",
+    "test": "npm run testonly --",
+    "testonly": "mocha --reporter spec --full-trace lib/test/tests.js",
+    "watch": "tsc -w"
+  },
+  "typings": "./lib/src/index.d.ts",
+  "version": "0.4.11"
+}
